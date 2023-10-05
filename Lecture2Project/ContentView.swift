@@ -73,22 +73,33 @@ struct ContentView: View {
                     HStack {
                         Image("timeline-1")
                             .resizable()
-                            .frame(width: 180.0, height: 200.0)
+                            .frame(width: (UIScreen.main.bounds.width)*0.45, height: 200.0)
                             .cornerRadius(10)
                         
                         Image("timeline-2")
                             .resizable()
-                            .frame(width: 180.0, height: 200.0)
+                            .frame(width: (UIScreen.main.bounds.width)*0.45, height: 200.0)
                             .cornerRadius(10)
-                    }
+                    }.padding(5)
                     HStack {
                         Image("timeline-3")
                             .resizable()
-                            .frame(width: 180.0, height: 200.0)
+                            .frame(width: (UIScreen.main.bounds.width)*0.45, height: 200.0)
                             .cornerRadius(10)
                         Image("timeline-4")
                             .resizable()
-                            .frame(width: 180.0, height: 200.0)
+                            .frame(width: (UIScreen.main.bounds.width)*0.45, height: 200.0)
+                            .cornerRadius(10)
+                    }
+                    
+                    HStack {
+                        Image("timeline-5")
+                            .resizable()
+                            .frame(width: (UIScreen.main.bounds.width)*0.45, height: 200.0)
+                            .cornerRadius(10)
+                        Image("timeline-6")
+                            .resizable()
+                            .frame(width: (UIScreen.main.bounds.width)*0.45, height: 200.0)
                             .cornerRadius(10)
                     }
                 }
